@@ -5,6 +5,7 @@ state = {term: ''}
 
 onFormSubmit = (event) => {
     event.preventDefault();
+    
     this.props.onSubmit(this.state.term);
 }
 
